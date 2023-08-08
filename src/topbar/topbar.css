@@ -1,0 +1,74 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topleft,.topright{
+        flex: 3;
+        display: flex;
+        top: 0;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topcenter{
+    flex:6;
+}
+.icone{
+    margin-right: 15px;
+    height: 50px;
+    width: 60px;
+}
+.youtube{
+    color: red;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icons{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    list-style:none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearch{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
